@@ -1,0 +1,33 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("BrainARK.wtf | Choose A Game", "BloodTheme")
+
+local credits = Window:NewTab("Choose")
+
+local creditsSection = credits:NewSection("Choose A Game")
+
+creditsSection:NewButton("Chaos", "Chaos Script", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Idkwhatudoin/SectorExploit/main/26y161y",true))()
+
+end)
+
+creditsSection:NewButton("Restaurant Tycoon 2", "Restaurant Tycoon 2 Script", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Idkwhatudoin/SectorExploit/main/5554ff",true))()
+
+end)
+
+creditsSection:NewButton("Race Clicker", "Race Clicker Script", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Idkwhatudoin/SectorExploit/main/Yhn9099",true))()
+
+end)
+
+creditsSection:NewLabel("Universal")
+
+creditsSection:NewButton("Universal", "Universal Script", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Idkwhatudoin/SectorExploit/main/Yygbb",true))()
+
+end)
