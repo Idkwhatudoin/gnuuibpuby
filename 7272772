@@ -24,6 +24,18 @@ creditsSection:NewButton("Race Clicker", "Race Clicker Script", function()
 
 end)
 
+creditsSection:NewButton("Legends Of Speed", "Legends Of Speed Script", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Idkwhatudoin/TTS/main/4241515",true))()
+
+end)
+
+creditsSection:NewButton("Muscle Legends", "Muscle Legends Script", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Idkwhatudoin/TTS/main/3R499871",true))()
+
+end)
+
 creditsSection:NewLabel("Universal")
 
 creditsSection:NewButton("Universal", "Universal Script", function()
